@@ -169,7 +169,7 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
-.email a{
+.email a {
   font-weight: bold;
 }
 
@@ -11774,6 +11774,7 @@ pre .code {
 .navbar {
   margin-top: -69.09px;
   background-color: transparent;
+  -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
   /* background-color: #030303; */
   /* background: linear-gradient(180deg, #030303 0%, #0a0a0a 100%); */
@@ -11877,7 +11878,6 @@ pre .code {
 .header {
   position: relative;
   height: calc(100vh + 69.09px);
-  min-height: 600px;
   background-image: -webkit-linear-gradient(
       bottom,
       rgba(0, 0, 0, 0.7),
